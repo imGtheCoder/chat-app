@@ -1,3 +1,4 @@
+import 'package:chat_app_v2/screens/auth_screen.dart';
 import 'package:chat_app_v2/screens/chat_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         
         primarySwatch: Colors.blue,
       ),
-      home: ChatScreen(),
+      home: AuthScreen(),
     );
   }
 }
